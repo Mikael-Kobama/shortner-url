@@ -1,0 +1,32 @@
+# Dependências do node
+node_modules/
+
+# Build / saída de compilação
+dist/
+build/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretório do dotenv (variáveis de ambiente)
+.env
+.env.local
+.env.*.local
+
+# Cache do editor/IDE
+.vscode/
+.idea/
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios do Docker (se usar)
+docker-compose.override.yml
+
+# Outros arquivos temporários
+*.log
+*.tmp
